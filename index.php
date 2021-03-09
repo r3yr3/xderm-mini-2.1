@@ -15,26 +15,23 @@ body {
   cursor: pointer;
   margin: 2px;
   align-items: center;
-  color: #fff;
 }
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: white;
   outline: 0;
 }
 .third {
   border-color: #0099cc;
-  color: #fff;
-  box-shadow: 0 0 40px 40px #0099cc inset, 0 0 0 0 black;
+  color: white;
+  box-shadow: 0 0 40px 40px black inset, 0 0 0 0 black;
   transition: all 150ms ease-in-out;
 }
 .third:hover {
-  border-color: black;
-  color: #000;
+  border-color: #fff;
 }
 .col-md-4 {
   text-align: left;
-  color: #fff;
-  font-family: cursive; color: black;
+  font-family: cursive; color: #fff;
   border: 8px ridge #0099cc;
   background-color: #000;
   align-items: center;
@@ -43,17 +40,14 @@ body {
 }
 .col-butt {
   text-align: center;
-  border: 2px ridge #0099cc;
+  border: 2px ridge black;
   align-items: center;
-  background-color: #000;
 }
 .inline-block {
   display: inline-block;
   text-align: left;
-  color: #fff;
   margin: 5px;
   top: 0px;
-  background-color: #000;
 }
 </style>
 <script>
